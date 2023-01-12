@@ -31,22 +31,25 @@ body {
 }
 
 .parola1 {
-    animation: textAnimation 10s linear 0s infinite;
+    animation: textAnimation 15s/*linear*/
+    0s infinite;
 }
 
 .parola2 {
     opacity: 0;
-    animation: textAnimation 10s linear 4s infinite;
+    animation: textAnimation 15s/*linear*/
+    4s infinite;
 }
 
 .parola3 {
     opacity: 0;
-    animation: textAnimation 10s linear 8s infinite;
+    animation: textAnimation 15s/*linear */
+    8s infinite;
 }
 
 @keyframes textAnimation {
     0% {
-        transform: translate(0, -1000px);
+        transform: translate(0, -50px);
         opacity: 0;
     }
     25% {
@@ -56,11 +59,11 @@ body {
         transform: translate(0px);
         opacity: 1;
     }
-    75% {
+    55% {
         opacity: 0;
     }
     100% {
-        transform: translate(0, 1000px);
+        transform: translate(0, 50px);
         opacity: 0;
     }
 }
