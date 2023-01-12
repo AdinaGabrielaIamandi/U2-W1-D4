@@ -1,0 +1,99 @@
+html,
+body {
+    height: 100%;
+    font-family: "Indie Flower", cursive;
+    background-color: rgb(102, 102, 102);
+}
+
+body {
+    margin: 20px auto;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.2em;
+    padding-top: 0.5em;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.container div {
+    margin: 1.2em;
+    display: flex;
+    justify-content: center;
+}
+
+.post-it1,
+.post-it2,
+.post-it3,
+.post-it4,
+.post-it5,
+.post-it6,
+.post-it7,
+.post-it8 {
+    height: 150px;
+}
+
+.post-it2,
+.post-it3,
+.post-it4,
+.post-it5,
+.post-it6,
+.post-it7,
+.post-it8 {
+    width: 200px;
+}
+
+.post-it1 {
+    width: 210px;
+}
+
+.post-it1,
+.post-it5,
+.post-it7 {
+    background: linear-gradient( 0deg, rgba(189, 189, 163, 1) 0%, rgba(251, 251, 201, 1) 100%);
+    transform: rotate(-8deg);
+    box-shadow: 11px 10px 11px -6px rgba(0, 0, 0, 0.64);
+}
+
+.post-it2,
+.post-it4,
+.post-it8 {
+    background: linear-gradient( 0deg, rgba(158, 182, 160, 1) 0%, rgba(211, 248, 207, 1) 100%);
+    box-shadow: 11px 10px 11px -6px rgba(0, 0, 0, 0.64);
+}
+
+.post-it3,
+.post-it6 {
+    background: linear-gradient( 0deg, rgb(138, 140, 153) 0%, rgb(198, 197, 237) 100%);
+    transform: rotate(-10deg);
+    box-shadow: 11px 10px 11px -6px rgba(0, 0, 0, 0.64);
+}
+
+.post-it2,
+.post-it8 {
+    transform: rotate(10deg);
+}
+
+.post-it4 {
+    transform: rotate(12deg);
+}
+
+#post:hover {
+    width: 250px;
+    height: 180px;
+    transform: rotate(0deg);
+}
